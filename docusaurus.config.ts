@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Tech Garden',
-  tagline: 'Personal Backyard of a Developer 🌱',
+  tagline: 'Tech Garden 👩🏻‍🌾🌾🌻🪻🌿 is a personal collection of tech stuff—docs, notes, and things I find helpful (so I don\'t end up drowning in open tabs or re-reading stuff). It might not work for everyone, so take everything with a grain of salt 🧂 and use what works for you! 🌟',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -35,17 +35,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,28 +47,27 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Tech Garden',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/h-sompura',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -91,37 +79,33 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Socials',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/harshithasompura/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Substack',
+              href: 'https://substack.com/@harshithasompura/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/h-sompura',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Have any suggestions?',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Add them here',
+              href: 'https://github.com/h-sompura/tech-garden/issues',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Tech Garden, Fueled by ☕ & <a href="https://docusaurus.io/" target="_blank">Docusaurus.</a>`,
     },
     prism: {
       theme: prismThemes.github,
