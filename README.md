@@ -1,41 +1,40 @@
-# Website
+# Tech Garden
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to Tech Garden, your personal backyard of all things tech! 👩🏻‍🌾🌾
 
-### Installation
+### 🔗 View it live here - []()
 
-```
-$ yarn
-```
+This project is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Local Development
+Tech Garden is a space where I cultivate and share my tech tools, development notes, and handy references. Whether you're a seasoned developer or just starting out, this is a place to explore, learn, and maybe find a nugget of knowledge that resonates with you.
 
-```
-$ yarn start
-```
+## Motivation
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+As a developer, I often found myself juggling between multiple tabs, searching for the same information, and drowning in the vast sea of online resources. Tech Garden emerged from the desire to create a personal space where I could consolidate my learnings, document my experiences, and have a go-to reference for _tech stuff_.
 
-### Build
+## Getting Started
 
-```
-$ yarn build
-```
+1. Clone the repository:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+   ```
+   git clone https://github.com/h-sompura/tech-garden.git
+   ```
 
-### Deployment
+2. Install dependencies:
 
-Using SSH:
+   ```
+   cd tech-garden
+   npm install
+   ```
 
-```
-$ USE_SSH=true yarn deploy
-```
+3. Run locally:
 
-Not using SSH:
+   ```
+   npm start
+   ```
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+Open http://localhost:3000 in your browser to view Tech Garden.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contribution
+
+Found a bug, have a suggestion, or want to contribute? Feel free to open an issue or submit a pull request. Your input is highly appreciated! 🤠
