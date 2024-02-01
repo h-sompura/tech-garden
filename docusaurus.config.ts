@@ -60,6 +60,11 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
+        {
+          href: "/docs/snailmail/",
+          label: "🐌 Devlogs",
+          position: "right",
+        },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: "https://github.com/h-sompura",
