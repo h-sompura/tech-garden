@@ -39,6 +39,11 @@ sidebar_position: 2
 | [React Developer Tools](https://chromewebstore.google.com/detail/fmkadmapgofadopljbjfkapdkoienihi?hl=en) | Inspect React components and code.                                                     |
 | [JSON Formatter](https://chromewebstore.google.com/detail/bcjindcccaagfpapjjmafapmmgkkhgoa)              | Makes JSON easy to read.                                                               |
 
+### VSCode Extensions
+
+- [ES7 React Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): simple extension for React that gives code blocks suggestions.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): for code formatting, we can also auto-format code when we save a file from vscode settings.
+
 ### Misc
 
 | Name                                                  | Description                                                                 |
