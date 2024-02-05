@@ -2,7 +2,7 @@
 
 Welcome to Tech Garden, your personal backyard of all things tech! 👩🏻‍🌾🌾
 
-### 🔗 View it live here - []()
+### 🔗 View it live here - https://tech-garden-hs.vercel.app/
 
 This project is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
