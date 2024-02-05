@@ -7,8 +7,9 @@
 /* You can override the default Infima variables here. */
 
 @font-face {
-  font-family: "Fraunces" ;
-  src: url('../../static/font/Fraunces_144pt_SuperSoft-Regular.ttf'), url("../../static/font/Fraunces_144pt-Bold.ttf");
+  font-family: "Fraunces";
+  src: url("../../static/font/Fraunces_144pt_SuperSoft-Regular.ttf"),
+    url("../../static/font/Fraunces_144pt-Bold.ttf");
 }
 
 :root {
@@ -29,7 +30,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #fffef5;
   --ifm-color-primary-dark: #fff9c3;
   --ifm-color-primary-darker: #fff7aa;
@@ -41,13 +42,13 @@
   --ifm-heading-color: #fff9c3 !important;
 }
 
-
 .navbar {
-  backdrop-filter:blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px);
 }
 
-.navbar-sidebar__brand, .navbar-sidebar__backdrop {
+.navbar-sidebar__brand,
+.navbar-sidebar__backdrop {
   background-color: var(--ifm-background-color);
 }
 
@@ -55,10 +56,16 @@
   background-color: var(--ifm-color-primary-darker);
 }
 
-.button.button--secondary{
+.button.button--secondary {
   color: var(--ifm-background-color);
 }
 
-.hero__title{
+.hero__title {
   font-style: italic;
+}
+
+.menu__link--active {
+  color: var(--ifm-color-primary-dark);
+  font-size: medium;
+  font-weight: bold;
 }
