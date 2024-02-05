@@ -43,6 +43,8 @@ sidebar_position: 2
 
 - [ES7 React Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets): simple extension for React that gives code blocks suggestions.
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): for code formatting, we can also auto-format code when we save a file from vscode settings.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): integrates ESLint into VSCode.
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): launches a local development server with live reload, especially useful for auto-reloading <code>.html</code> pages
 
 ### Misc
 
