@@ -67,7 +67,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "https://github.com/h-sompura",
+          href: "https://github.com/harshithasompura",
           label: "GitHub",
           position: "right",
         },
@@ -97,7 +97,7 @@ const config: Config = {
             },
             {
               label: "Github",
-              href: "https://github.com/h-sompura",
+              href: "https://github.com/harshithasompura",
             },
           ],
         },
@@ -106,7 +106,7 @@ const config: Config = {
           items: [
             {
               label: "Add them here",
-              href: "https://github.com/h-sompura/tech-garden/issues",
+              href: "https://github.com/harshithasompura/tech-garden/issues",
             },
           ],
         },

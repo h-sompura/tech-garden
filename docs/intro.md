@@ -11,7 +11,7 @@ slug: /
 
 I've planted my collection of _tech stuff_ on here. Although this is pretty opinionated, some content on here might be outdated or won’t work for every scenario, so grab what works for you! 🍀
 
-If you’d like to report/suggest any content, you can add them <u>_[here.](https://github.com/h-sompura/tech-garden/issues)_</u>
+If you’d like to report/suggest any content, you can add them <u>_[here.](https://github.com/harshithasompura/tech-garden/issues)_</u>
 
 ## What to expect
 

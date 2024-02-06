@@ -17,7 +17,7 @@ As a developer, I often found myself juggling between multiple tabs, searching f
 1. Clone the repository:
 
    ```
-   git clone https://github.com/h-sompura/tech-garden.git
+   git clone https://github.com/harshithasompura/tech-garden.git
    ```
 
 2. Install dependencies:
